@@ -11,7 +11,7 @@ I implement **End-to-End Physical Intelligence Pipelines**:
 
 ###  Core Artifacts
 
-#### [Cerberus](https://github.com/Aniruddh5502/fault-tolerant-system-design-ESP32) | *Dependable Embedded Systems*
+#### [Cerberus](https://github.com/Aniruddh5502/cerberus) | *Dependable Embedded Systems*
 An industrial-grade firmware framework for ESP32 designed for safety-critical environments (e.g., flight controllers).
 - **Autonomous Self-Healing:** Triple OTA partition management (`ota_0, 1, 2`) with SHA-256 validation every 60s. Automatically performs chunk-based (4KB) destructive copies to repair corrupted firmware slots.
 - **Two-Layer TMR:** Implemented a high-order redundancy pattern for critical data and arithmetic. 
