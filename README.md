@@ -52,4 +52,4 @@ A local-first AI agent built on LangGraph and Ollama, designed for autonomous en
 ###  Current Trajectory
 I am currently refining the deployment of **Physics-Informed Neural Networks (PINNs)** and **Reduced Order Models (ROMs)** into hard real-time C++ environments. My goal is to eliminate the "Simulation Bottleneck" by enabling complex physics-based predictions to run in $<1\text{ms}$ on edge hardware.
 
-[Portfolio](https://aniruddh5502.github.io/Portfolio/) | [LinkedIn](https://www.linkedin.com/in/aniruddh2122/)
+[Portfolio](https://aniruddh5502.github.io/) | [LinkedIn](https://www.linkedin.com/in/aniruddh2122/)
