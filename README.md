@@ -2,7 +2,7 @@
 
 ## Bridging between Physics, Intelligence, and Silicon
 
-Hi there, I work with machines, hardware, software(firmware), simulations, data processing, surrogate model building and combining all of them in coherent processes to complete the cycle and keep it ongoing. I use tools including design tools like blender for 3D graphics, Solidworks, AutoCAD for modeling CAD, Simulations using SolidWorks, Ansys, FEA etc sectors. I also script thousands of simulations generating data, processing them and using them to train surrogate models and make predictions orders of magnitude faster. I include ML, AI where its needed as per requirements and feasability.
+I love to work with Machines including software and hardware. My prior education is in Mechanical Engineering from BUET and I love to work with data-finding trends, analysis and empirical descision makings from data and exploring new things. Mainly work with simulation softwares and use code to scale up processes and getting data driven descisions is my work.
 
 ---
 
@@ -31,11 +31,13 @@ An industrial-grade firmware framework for ESP32 designed for safety-critical en
 
 
 #### [Momobot](https://github.com/Aniruddh5502/momobot) | *Agentic AI Orchestration*
-A local-first AI agent built on LangGraph and Ollama, designed for autonomous engineering workflows.
-- **Semantic Compaction:** Implemented a token-triggered compaction system that summarizes older conversation history into a rolling state, preventing context window saturation.
-- **Complex Tooling:** Integrated a persistent shell process (`pwsh`), surgical `str_replace` for file editing, and a subagent spawning system for parallel task execution.
-- **Multi-Modal:** Integrated vision-based OCR and PDF parsing (LlamaCloud) for high-density document processing.
 
+Momobot is my daily driver for works that can be automated, done in volume or personal agentic tasks for I do not use Claude Code, Hermes, Pi or other agentic harnesses. My main motivation to use my own tools is that I know all the crux and pitfalls of them before anything has even started. When using Momobot I can print out things that its writing, running commands, searching queries all of them, even what the Orchastrator is giving to the subagents all are verifiable by me. Also there are Harness Driven test systems to check coding task completion by task state tools. That works as a hallucination proof architecture choice I made on the way. Momobot is a long project that I have been using and improving from my user experience since the start of 2025. So all the improvements tweaks are based of my experience with thsi tool for my tasks that include Mechanical Engineering, Simulation Automations, papers data checking from actual reports that are code written, writing small verifiable scripts debugging them, feature implementations and all sorts of things.
+It runs on Ollama/Openrouter depending on what you set in env variables, selected models in them. It has session persistance in repo specific so all the sessions in some project folder will occur when you are in that folder. It has compaction built inside the Agentic loop so long sessions can be operated with minimal loss of information from session to session.
+For Ollama specific it has Cache optimizations builtin which saves you from cold starts, KV Cache storage and in general (both Ollama and Openrouter) very high cache hit rates making it more efficient.
+Tools are also made to be very context efficient designs and giving the agent much control over them to work with.
+For subagent orchastration it has session persistance for the subagents, so a subagent can be reused by the main agent multiple rounds without any loss in their context.
+It's still uncder development as I constantly update things to my likings and problems I face.
 ---
 
 ###  Technical Arsenal
