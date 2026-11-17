@@ -38,6 +38,7 @@ For Ollama specific it has Cache optimizations builtin which saves you from cold
 Tools are also made to be very context efficient designs and giving the agent much control over them to work with.
 For subagent orchastration it has session persistance for the subagents, so a subagent can be reused by the main agent multiple rounds without any loss in their context.
 It's still uncder development as I constantly update things to my likings and problems I face.
+
 ---
 
 ###  Technical Arsenal
