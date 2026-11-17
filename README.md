@@ -53,6 +53,6 @@ It's still uncder development as I constantly update things to my likings and pr
 ---
 
 ###  Current Trajectory
-I am currently refining the deployment of **Physics-Informed Neural Networks (PINNs)** and **Reduced Order Models (ROMs)** into hard real-time C++ environments. My goal is to eliminate the "Simulation Bottleneck" by enabling complex physics-based predictions to run in $<1\text{ms}$ on edge hardware.
+Working on a research project about Error Prediction/UQ with assisted neural network for Surrogate models in case of input space/design space dependency of error distribution for better correlation between absolute error and predicted error/quantized uncertainity.
 
 [Portfolio](https://aniruddh5502.github.io/) | [LinkedIn](https://www.linkedin.com/in/aniruddh2122/)
