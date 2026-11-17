@@ -53,6 +53,6 @@ It's still uncder development as I constantly update things to my likings and pr
 ---
 
 ###  Current Trajectory
-Working on a research project about Error Prediction/UQ with assisted neural network for Surrogate models in case of input space/design space dependency of error distribution for better correlation between absolute error and predicted error/quantized uncertainity.
+Working on a research project about **Error Prediction/UQ with assisted neural network for Surrogate models in case of input space/design space dependency of error distribution** for better correlation between absolute error and predicted error/quantized uncertainity.
 
 [Portfolio](https://aniruddh5502.github.io/) | [LinkedIn](https://www.linkedin.com/in/aniruddh2122/)
