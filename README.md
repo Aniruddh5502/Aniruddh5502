@@ -8,10 +8,10 @@ I love to work with Machines including software and hardware. My prior education
 
 ###  Core Artifacts
 #### [Assisted Neural Network On Input Space Driven Error Manifold Mapping For Better Error Prediction](https://github.com/Aniruddh5502/assisted-nn-error-mapping?tab=readme-ov-file)|*Assisted NN Error Mapping*
+This is one of my research works. Basically there are two types of errors/uncertainities in data generated from simulation softwares and then surrogate models trained on them. One there are allhetoric uncertainity and another Epistemic Uncertainity. Now the former is intrinsic to data that was used to train the model. And the latter arrives from the model training processes. Now when the surrogate models are used to predict the outputs in some regression FEA problem, there are several ways in which people can estimate this error, or at least try to predict them using statistics and probability. But that gives a mathamatical probability, which is effective in laws of large numbers, but for a single inference, it becomes hard to predict it accurately or even close enough. Now this new method imbues a incentive to learn the error behaviour of the model. Now this only works if the error changing behaviour of the model is some function of the inputspace. Because that's the only thing we will have at inference time. Now testing this idea gives this result below. We correlate the error quantity predicted by the Error Mapper model and The Absolute error computed form a held out test sets feature and target columns. And we can see a very likely correlation in both Spearman and Pearson correlation. Meaning we we have very high positive Linear and Rank Correlation.
 
+**Performance: Input Driven Error Manifold Mapping and Training**
 
-
-Performance: Input Driven Error Manifold Mapping and Training
 | Ouput Dimension | Pearson Correlation | Spearman Correlation |
 |---|---|---|
 | max stress von mises error | 0.89 | 0.88 |
