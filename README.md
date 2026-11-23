@@ -7,6 +7,20 @@ I love to work with Machines including software and hardware. My prior education
 ---
 
 ###  Core Artifacts
+#### [Assisted Neural Network On Input Space Driven Error Manifold Mapping For Better Error Prediction](https://github.com/Aniruddh5502/assisted-nn-error-mapping?tab=readme-ov-file)|*Assisted NN Error Mapping*
+
+
+
+Performance: Input Driven Error Manifold Mapping and Training
+| Ouput Dimension | Pearson Correlation | Spearman Correlation |
+|---|---|---|
+| max stress von mises error | 0.89 | 0.88 |
+| max deformation error | 0.53 | 0.41 |
+| mode 1 frequency error | 0.97 | 0.90 |
+| mode 2 frequency error | 0.99 | 0.92 |
+| mode 3 frequency error | 0.95 | 0.94 |
+| mode 4 frequency error | 0.97 | 0.95 |
+
 
 #### [Mechanical Design Optimization Framework](https://github.com/Aniruddh5502/mechanical-design-optimization-framework) | *Probabilistic Surrogate Modeling*
 This project came out of my University Thesis where I wrote codes for training Surrogate Model on data generated from simulation that was scripted to do parametric sweep over the total design space and generate simulation data. After the training of the Ensemble Neural Network Surrogate model did sensitivity analysis with jacobean, Manifold Extraction of the response surface of the Ensemble Neural Network model to investigate how the manifold looked, but obviously first I had to down project it to 3D to view it. Otherwise there are 6 dimensions in the output of this model which was averaged over the Ensemble members outputs for each dimensions.
@@ -43,7 +57,7 @@ It's still uncder development as I constantly update things to my likings and pr
 
 ---
 
-###  Technical Arsenal
+###  Tech Stack
 
 | Domain | Technologies |
 | :--- | :--- |
