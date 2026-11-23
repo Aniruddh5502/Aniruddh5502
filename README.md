@@ -9,6 +9,8 @@ I love to work with Machines including software and hardware. My prior education
 ###  Core Artifacts
 
 #### [Mechanical Design Optimization Framework](https://github.com/Aniruddh5502/mechanical-design-optimization-framework) | *Probabilistic Surrogate Modeling*
+This project came out of my University Thesis where I wrote codes for training Surrogate Model on data generated from simulation that was scripted to do parametric sweep over the total design space and generate simulation data. After the training of the Ensemble Neural Network Surrogate model did sensitivity analysis with jacobean, Manifold Extraction of the response surface of the Ensemble Neural Network model to investigate how the manifold looked, but obviously first I had to down project it to 3D to view it. Otherwise there are 6 dimensions in the output of this model which was averaged over the Ensemble members outputs for each dimensions.
+
 A full-stack pipeline for the parametric optimization of MEMS accelerometer flexures.
 - **The Pipeline:** Scripted ANSYS simulations $\rightarrow$ Ensemble Neural Network $\rightarrow$ NSGA-II Optimization.
 - **Probabilistic ROM:** Built an ensemble of 20 MLP regressors to predict 10 structural outputs (Modal Frequencies, Stress, Deformation).
